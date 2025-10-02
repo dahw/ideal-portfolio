@@ -41,7 +41,7 @@ export default function Hero({
             <span className="text-sm">404-625-7717</span>
           </a>
           <a
-            href="https://www.linkedin.com/in/dean-walston"
+            href="https://www.linkedin.com/in/dean-ah-walston"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-400 hover:text-[#4a90e2] transition-colors"
@@ -50,7 +50,7 @@ export default function Hero({
             <span className="text-sm">LinkedIn</span>
           </a>
           <a
-            href="https://github.com/deanwalston"
+            href="https://github.com/dahw"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-400 hover:text-[#4a90e2] transition-colors"
