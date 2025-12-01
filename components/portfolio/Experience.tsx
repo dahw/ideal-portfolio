@@ -8,6 +8,19 @@ import {Card} from '@/components/ui/card';
 export default function Experience() {
   const experiences = [
     {
+      title: 'Data & Analytics Extern',
+      company: 'Innova Solutions',
+      location: 'Wilmington, DE (Remote)',
+      period: 'Nov 2025 – Dec 2025',
+      achievements: [
+        'Designed cloud-backed reports, data models, and workflow integrations that supported project architecture and improved data accessibility for internal users',
+        'Analyzed statement of work (SOW) data from U.S. programs to identify process gaps, resulting in clearer visibility into workload distribution and contributing to faster production-level decision cycles',
+        'Built and maintained Power BI dashboards that visualize KPIs for partners and stakeholders, helping increase reporting transparency and engagement across programs.',
+        'Coordinated with engineering and platform teams to strengthen data accuracy, maintain reliable server connections, and improve system-health visibility',
+        'Automated recurring reporting workflows using Python and Excel, reducing manual turnaround time and improving day-to-day accessibility for analysts.',
+        'Collaborated across cross-functional teams of internal and external stakeholders to ensure support for data validation, compliance needs, and consistent reporting practices.',
+      ]
+    },{
       title: 'Data & Analytics Fellow',
       company: 'The Recycling Partnership',
       location: 'Nashville, TN (Remote)',
@@ -27,7 +40,7 @@ export default function Experience() {
       achievements: [
         'Researched the NetsBlox Tool of Vanderbilt University, evaluating its effectiveness in teaching computer science concepts through visual programming, user engagement, and collaborative learning.',
         'Built course modules on Cloud APIs and networking; gained proficiency in AWS services (S3 and Lambda), Blocks, SQL.',
-      ],
+      ]
     },
     {
       title: 'Lead Coach – Summer of Invention & Innovation Program',
@@ -36,8 +49,8 @@ export default function Experience() {
       period: 'May 2022 – Aug 2022',
       achievements: [
         'Mentored 800+ scholars in robotics across FIRST (For Inspiration and Recognition of Science and Technology), guiding them in competition challenges and technical development.',
-        "Taught young minority scholars ages 7+ in the programming languages of JavaScript and Blocks, improving robotics skills and inspired research on NASA's Space Exploration.",
-      ],
+        'Taught young minority scholars ages 7+ in the programming languages of JavaScript and Blocks, improving robotics skills and inspired research on NASA\'s Space Exploration.',
+      ]
     },
     {
       title: 'Software Engineer Intern – Rock Internship Program',
@@ -47,7 +60,7 @@ export default function Experience() {
       achievements: [
         'Collaborated with Rocket Loans team of engineers to create, test, and improve quality and functionality of production systems.',
         'Designed and implemented unit and integration tests, enhancing reliability of loan service applications.',
-      ],
+      ]
     },
     {
       title: 'HBCU Computer Science Summer Institute Practitioner',
@@ -57,8 +70,8 @@ export default function Experience() {
       achievements: [
         '1 of 45 students selected nationwide for a 3-week coding program at Alabama A&M University.',
         'Completed Python training; configured Raspberry Pi; delivered final project to Google engineers.',
-      ],
-    },
+      ]
+    }
   ];
 
   return (

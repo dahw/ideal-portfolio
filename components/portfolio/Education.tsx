@@ -20,7 +20,7 @@ export default function Education() {
       degree: 'Bachelor of Arts in Data Science',
       institution: 'Fisk University',
       location: 'Nashville, TN',
-      period: 'Graduated: May 2023',
+      period: 'Graduated: May 2025',
       description: '',
       current: false,
     },
