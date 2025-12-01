@@ -209,7 +209,7 @@ Dean Aldric Harrison Walston
 
 - **Email**: Dwalston252@gmail.com
 - **Phone**: 404-625-7717
-- **LinkedIn**: [dean-walston](https://www.linkedin.com/in/dean-walston)
+- **LinkedIn**: [dean-ah-walston](https://www.linkedin.com/in/dean-ah-walston)
 - **GitHub**: [deanwalston](https://github.com/dahw)
 
 ---
