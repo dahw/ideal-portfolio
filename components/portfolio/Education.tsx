@@ -13,7 +13,10 @@ export default function Education() {
       location: 'Wilmington, DE',
       period: 'Aug 2025 – Present',
       description:
-        'Rigorous 20-week full-stack software engineering boot camp (50+ hours/week) focused on building technology solutions using Java, Spring Boot, TypeScript, HTML, CSS, and React.',
+      `Intensive 20-week full-stack software engineering program (50+ hours/week) focused on building technology solutions using Java, Spring Boot, Typescript, HTML, CSS, React, and AI tools.
+      Gaining hands-on experience with Git, GitHub, and Visual Studio Code for version control, collaborative workflows, and project management, including branching, pull requests, and code reviews.
+      Includes a 2-month externship and a capstone project that simulates real-world product development.`,
+
       current: true,
     },
     {

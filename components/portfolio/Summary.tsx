@@ -11,9 +11,9 @@ export default function Summary() {
     {
       name: 'Competency in AI Prompting Essentials',
       org: 'TestOut Corporation',
-      date: 'Sep 2025',
+      date: 'Sep 2025'
     },
-    {name: 'Certified ScrumMaster', org: 'Scrum Alliance', date: 'Sep 2025'},
+    {name: 'Certified ScrumMaster', org: 'Scrum Alliance', date: 'Sep 2025'}
   ];
 
   return (
@@ -26,15 +26,10 @@ export default function Summary() {
         <Card className="bg-[#1a1d29] border-gray-800 mb-12">
           <div className="p-8 md:p-12">
             <p className="text-lg text-gray-300 leading-relaxed">
-              Data science graduate and emerging software engineer with
-              experience in analytics, machine learning, and full-stack
-              development across academic, corporate, and fellowship settings.
-              Currently completing an AI-powered software engineering bootcamp
-              and earning industry certifications to deepen expertise in
-              building intelligent, data-driven applications. Proven ability to
-              design production-ready solutions, develop automated data
-              workflows, and create interactive dashboards that drive
-              decision-making and user engagement.
+              Software engineer and data-driven problem solver with experience in analytics, automation,
+              and full-stack development across academic, corporate, and fellowship settings. 
+              Builds reliable systems, interactive dashboards, and cloud-based workflows that support informed decision-making and optimized product performance.
+              Brings strong fundamentals in programming, data modeling, and application development with a forward-looking approach to shipping clean, dependable code.
             </p>
           </div>
         </Card>

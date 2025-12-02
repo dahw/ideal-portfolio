@@ -16,7 +16,7 @@ export default function Hero({
     >
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8">
-          <h1 className="text-5xl md:text-7xl font-bold text-[#e8eaed] mb-4 tracking-tight">
+          <h1 className="text-4xl md:text-6xl font-bold text-[#e8eaed] mb-4 tracking-tight">
             Dean Aldric Harrison
             <span className="block gradient-text mt-2">Walston</span>
           </h1>
@@ -26,20 +26,6 @@ export default function Hero({
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-6 mb-12">
-          <a
-            href="mailto:Dwalston252@gmail.com"
-            className="flex items-center gap-2 text-gray-400 hover:text-[#4a90e2] transition-colors"
-          >
-            <Mail className="w-5 h-5" />
-            <span className="text-sm">Dwalston252@gmail.com</span>
-          </a>
-          <a
-            href="tel:404-625-7717"
-            className="flex items-center gap-2 text-gray-400 hover:text-[#4a90e2] transition-colors"
-          >
-            <Phone className="w-5 h-5" />
-            <span className="text-sm">404-625-7717</span>
-          </a>
           <a
             href="https://www.linkedin.com/in/dean-ah-walston"
             target="_blank"
@@ -58,10 +44,24 @@ export default function Hero({
             <Github className="w-5 h-5" />
             <span className="text-sm">GitHub</span>
           </a>
+          <a
+            href="mailto:Dwalston252@gmail.com"
+            className="flex items-center gap-2 text-gray-400 hover:text-[#4a90e2] transition-colors"
+          >
+            <Mail className="w-5 h-5" />
+            <span className="text-sm">Email</span>
+          </a>
+          <a
+            href="tel:404-625-7717"
+            className="flex items-center gap-2 text-gray-400 hover:text-[#4a90e2] transition-colors"
+          >
+            <Phone className="w-5 h-5" />
+            <span className="text-sm">Phone Number</span>
+          </a>
         </div>
 
         <Button
-          onClick={() => scrollToSection('summary')}
+          onClick={() => scrollToSection('experience')}
           className="bg-[#4a90e2] hover:bg-[#3a7bc8] text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
         >
           Explore My Work

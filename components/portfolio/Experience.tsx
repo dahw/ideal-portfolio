@@ -13,8 +13,8 @@ export default function Experience() {
       location: 'Wilmington, DE (Remote)',
       period: 'Nov 2025 – Dec 2025',
       achievements: [
-        'Designed cloud-backed reports, data models, and workflow integrations that supported project architecture and improved data accessibility for internal users',
-        'Analyzed statement of work (SOW) data from U.S. programs to identify process gaps, resulting in clearer visibility into workload distribution and contributing to faster production-level decision cycles',
+        'Designed 5+ cloud-backed reports, data models, and workflow integrations that supported project architecture and improved data accessibility for internal users',
+        'Analyzed statement of work (SOW) data from U.S. programs to identify process gaps, resulting in clearer visibility into workload distribution and contributing to faster production-level decision cycles by 20%.',
         'Built and maintained Power BI dashboards that visualize KPIs for partners and stakeholders, helping increase reporting transparency and engagement across programs.',
         'Coordinated with engineering and platform teams to strengthen data accuracy, maintain reliable server connections, and improve system-health visibility',
         'Automated recurring reporting workflows using Python and Excel, reducing manual turnaround time and improving day-to-day accessibility for analysts.',
@@ -38,8 +38,10 @@ export default function Experience() {
       location: 'Nashville, TN',
       period: 'May 2023 – Aug 2023',
       achievements: [
-        'Researched the NetsBlox Tool of Vanderbilt University, evaluating its effectiveness in teaching computer science concepts through visual programming, user engagement, and collaborative learning.',
-        'Built course modules on Cloud APIs and networking; gained proficiency in AWS services (S3 and Lambda), Blocks, SQL.',
+        'Evaluated cloud-based learning tools to identify opportunities for process improvement and technology integration through visual programming, user engagement, and collaborative learning outcomes.',
+        'Developed documentation standards and process flows on Cloud APIs integrating AWS services (S3, Lambda) and SQL databases to support cloud-based computing modules.',
+        'Strengthened efficiency in cross-team collaboration and presented workflow recommendations to academic and technical partners.'
+
       ]
     },
     {
@@ -48,8 +50,9 @@ export default function Experience() {
       location: 'Atlanta, GA',
       period: 'May 2022 – Aug 2022',
       achievements: [
-        'Mentored 800+ scholars in robotics across FIRST (For Inspiration and Recognition of Science and Technology), guiding them in competition challenges and technical development.',
-        'Taught young minority scholars ages 7+ in the programming languages of JavaScript and Blocks, improving robotics skills and inspired research on NASA\'s Space Exploration.',
+        'Led technical workshops for 800+ youth in robotics and programming (JavaScript, Blocks).',
+        'Guided project development and competition readiness to scholars ages 7+ under the FIRST (For Inspiration and Recognition of Science and Technology) Robotics framework, promoting efficiency in team coordination and project execution.',
+        'Promoted STEM access, contributing to long-term program sustainability and career exploration to underrepresented youth.'
       ]
     },
     {

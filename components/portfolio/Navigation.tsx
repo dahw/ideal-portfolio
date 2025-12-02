@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {Menu} from 'lucide-react';
 
 import {Button} from '@/components/ui/button';
@@ -7,7 +5,7 @@ import {Sheet, SheetContent, SheetTrigger} from '@/components/ui/sheet';
 
 export default function Navigation({
   activeSection,
-  onNavigate,
+  onNavigate
 }: {
   activeSection: string;
   onNavigate: (section: string) => void;
@@ -15,10 +13,11 @@ export default function Navigation({
   const navItems = [
     {id: 'home', label: 'Home'},
     {id: 'summary', label: 'Summary'},
+    {id: 'experience', label: 'Experience'},
+    {id: 'projects', label: 'Projects'},
     {id: 'skills', label: 'Skills'},
     {id: 'education', label: 'Education'},
-    {id: 'experience', label: 'Experience'},
-    {id: 'leadership', label: 'Leadership'},
+    {id: 'leadership', label: 'Leadership'}
   ];
 
   return (
