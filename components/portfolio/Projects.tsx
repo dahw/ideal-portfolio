@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowRight, FolderOpen } from 'lucide-react';
-import ProjectCard from '@/components/ProjectsCard';
-import ProjectModal from '@/components/ProjectsModal';
+import ProjectCard from '@/components/project/ProjectsCard';
+import ProjectModal from '@/components/project/ProjectsModal';
 
 interface ProjectsProps {
   scrollToSection: (sectionId: string) => void;
