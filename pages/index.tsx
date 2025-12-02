@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import {useEffect, useState} from 'react';
 
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
@@ -9,6 +9,7 @@ import Experience from '../components/portfolio/Experience';
 import Hero from '../components/portfolio/Hero';
 import Leadership from '../components/portfolio/Leadership';
 import Navigation from '../components/portfolio/Navigation';
+import Projects from '../components/portfolio/Projects';
 import Skills from '../components/portfolio/Skills';
 import Summary from '../components/portfolio/Summary';
 
@@ -20,10 +21,11 @@ export default function Portfolio() {
       const sections = [
         'home',
         'summary',
+        'experience',
+        'projects',
         'skills',
         'education',
-        'experience',
-        'leadership',
+        'leadership'
       ];
       const current = sections.find(section => {
         const element = document.getElementById(section);
@@ -82,9 +84,12 @@ export default function Portfolio() {
       <div className="pt-20">
         <Hero scrollToSection={scrollToSection} />
         <Summary />
+        <Experience />
+        <div id="projects">
+          <Projects scrollToSection={scrollToSection} />
+        </div>
         <Skills />
         <Education />
-        <Experience />
         <Leadership />
       </div>
 
