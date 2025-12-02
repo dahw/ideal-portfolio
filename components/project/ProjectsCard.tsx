@@ -49,7 +49,7 @@ export default function ProjectCard({
   };
 
   const getToolColor = (tool: string) =>
-    toolColors[tool] || toolColors['default'];
+    toolColors[tool as keyof typeof toolColors] || toolColors['default'];
 
   return (
     <Card className="bg-[#252837] border-gray-800 hover:border-[#4a90e2] transition-all duration-300 overflow-hidden group">
