@@ -3,12 +3,27 @@ import { ArrowRight, FolderOpen } from 'lucide-react';
 import ProjectCard from '@/components/project/ProjectsCard';
 import ProjectModal from '@/components/project/ProjectsModal';
 
+interface Project {
+  id: number;
+  name: string;
+  description: string;
+  tools: string[];
+  image_url?: string;
+  featured?: boolean;
+  live_url?: string;
+  github_url?: string;
+  team?: string;
+  detailed_description?: string;
+  architecture?: string;
+  gallery_images?: string[];
+}
+
 interface ProjectsProps {
   scrollToSection: (sectionId: string) => void;
 }
 
 export default function Projects({ scrollToSection }: ProjectsProps) {
-  const [selectedProject, setSelectedProject] = useState(null);
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   // Updated project data with real content
   const projects = [
