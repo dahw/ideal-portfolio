@@ -166,3 +166,4 @@ The Next.js app runs on Vercel and talks to Supabase and OpenAI only through ser
       )}
     </section>
   );
+}
