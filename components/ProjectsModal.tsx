@@ -12,7 +12,27 @@ import {
 import {Badge} from '@/components/ui/badge';
 import {Button} from '@/components/ui/button';
 
-export default function ProjectModal({project, onClose}) {
+interface Project {
+  id: number;
+  name: string;
+  description: string;
+  tools: string[];
+  image_url?: string;
+  featured?: boolean;
+  live_url?: string;
+  github_url?: string;
+  team?: string;
+  detailed_description?: string;
+  architecture?: string;
+  gallery_images?: string[];
+}
+
+interface ProjectModalProps {
+  project: Project;
+  onClose: () => void;
+}
+
+export default function ProjectModal({project, onClose}: ProjectModalProps) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const allImages = [
@@ -40,7 +60,8 @@ export default function ProjectModal({project, onClose}) {
     default: 'bg-[#4a90e2]/20 text-[#4a90e2]'
   };
 
-  const getToolColor = tool => toolColors[tool] || toolColors['default'];
+  const getToolColor = (tool: string) =>
+    toolColors[tool] || toolColors['default'];
 
   const nextImage = () => {
     setCurrentImageIndex(prev => (prev + 1) % allImages.length);
