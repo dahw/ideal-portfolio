@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import Image from 'next/image';
 
 import {
   ChevronLeft,
@@ -61,7 +62,7 @@ export default function ProjectModal({project, onClose}: ProjectModalProps) {
   };
 
   const getToolColor = (tool: string) =>
-    toolColors[tool] || toolColors['default'];
+    toolColors[tool as keyof typeof toolColors] || toolColors['default'];
 
   const nextImage = () => {
     setCurrentImageIndex(prev => (prev + 1) % allImages.length);
@@ -91,10 +92,13 @@ export default function ProjectModal({project, onClose}: ProjectModalProps) {
           <div className="relative h-64 md:h-80 bg-[#252837]">
             {allImages.length > 0 ? (
               <>
-                <img
-                  src={allImages[currentImageIndex]}
+                <Image
+                  src={allImages[currentImageIndex] || ''}
                   alt={project.name}
                   className="w-full h-full object-cover"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 800px"
+                  priority
                 />
                 {allImages.length > 1 && (
                   <>
